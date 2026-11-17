@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: fulfilment
+  description: Order processing and fulfilment
+spec:
+  owner: team-orders
+  domain: commerce
+  type: order-fulfilment

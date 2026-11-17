@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: maya-iyer
+spec:
+  profile:
+    displayName: Maya Iyer
+    email: maya.iyer@buildin10.example
+  memberOf:
+    - team-orders

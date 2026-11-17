@@ -1,0 +1,27 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: buildin10-catalog-entities
+  description: Buildin10 organization, commerce domain, systems, APIs and shared resources
+spec:
+  type: url
+  targets:
+    - ./entities/engineering.yaml
+    - ./entities/team-orders.yaml
+    - ./entities/team-payments.yaml
+    - ./entities/team-platform.yaml
+    - ./entities/user-rahul-verma.yaml
+    - ./entities/user-maya-iyer.yaml
+    - ./entities/user-alex-morgan.yaml
+    - ./entities/user-priya-shah.yaml
+    - ./entities/user-sam-lee.yaml
+    - ./entities/domain-commerce.yaml
+    - ./entities/system-checkout.yaml
+    - ./entities/system-fulfilment.yaml
+    - ./entities/resource-payments-db.yaml
+    - ./entities/resource-orders-db.yaml
+    - ./entities/resource-orders-events.yaml
+    - ./entities/api-payments-rest.yaml
+    - ./entities/api-orders-rest.yaml
+    - ./entities/component-inventory-worker.yaml
+    - ./entities/component-notification-service.yaml

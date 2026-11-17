@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: payments-db
+  description: PostgreSQL database for payment transactions
+spec:
+  type: database
+  owner: team-payments
+  system: checkout

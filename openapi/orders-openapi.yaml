@@ -1,0 +1,25 @@
+openapi: 3.0.3
+info:
+  title: Buildin10 Orders API
+  version: 1.0.0
+  description: Order creation and lookup API
+servers:
+  - url: http://orders-api.default.svc.cluster.local:8080
+paths:
+  /health:
+    get:
+      summary: Health check
+      responses:
+        '200':
+          description: Service is healthy
+  /orders:
+    get:
+      summary: List orders
+      responses:
+        '200':
+          description: Orders returned
+    post:
+      summary: Create an order
+      responses:
+        '201':
+          description: Order accepted

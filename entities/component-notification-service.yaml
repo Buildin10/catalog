@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: notification-service
+  description: Intentionally broken catalog entry with a non-existent owner
+spec:
+  type: service
+  lifecycle: experimental
+  owner: team-notifications
+  system: fulfilment

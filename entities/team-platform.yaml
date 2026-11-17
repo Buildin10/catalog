@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: team-platform
+  description: Owns developer platform, cluster operations and shared tooling
+spec:
+  type: team
+  profile:
+    displayName: Team Platform
+    email: team-platform@buildin10.example
+  parent: engineering
+  children: []
+  members:
+    - user:default/sam-lee

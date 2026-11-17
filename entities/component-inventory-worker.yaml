@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: inventory-worker
+  description: Catalog-only inventory event consumer; not deployed in this demo
+spec:
+  type: service
+  lifecycle: experimental
+  owner: team-orders
+  system: fulfilment

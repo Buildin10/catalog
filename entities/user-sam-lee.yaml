@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: sam-lee
+spec:
+  profile:
+    displayName: Sam Lee
+    email: sam.lee@buildin10.example
+  memberOf:
+    - team-platform

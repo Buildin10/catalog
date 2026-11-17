@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: team-payments
+  description: Owns payment processing and payment data
+spec:
+  type: team
+  profile:
+    displayName: Team Payments
+    email: team-payments@buildin10.example
+  parent: engineering
+  children: []
+  members:
+    - user:default/alex-morgan
+    - user:default/priya-shah

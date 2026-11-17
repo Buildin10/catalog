@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: priya-shah
+spec:
+  profile:
+    displayName: Priya Shah
+    email: priya.shah@buildin10.example
+  memberOf:
+    - team-payments

@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: engineering
+  description: Engineering organization
+spec:
+  type: department
+  profile:
+    displayName: Engineering
+  children:
+    - team-orders
+    - team-payments
+    - team-platform
+  members: []

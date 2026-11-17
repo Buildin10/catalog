@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: payments-rest
+  description: REST API for payment operations
+spec:
+  type: openapi
+  lifecycle: production
+  owner: team-payments
+  system: checkout
+  definition:
+    $text: ../openapi/payments-openapi.yaml

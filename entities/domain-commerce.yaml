@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: commerce
+  description: Shop and order commerce capabilities for Buildin10
+spec:
+  type: business-domain
+  owner: team-platform

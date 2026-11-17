@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: team-orders
+  description: Owns order processing and fulfilment services
+spec:
+  type: team
+  profile:
+    displayName: Team Orders
+    email: team-orders@buildin10.example
+  parent: engineering
+  children: []
+  members:
+    - user:default/rahul-verma
+    - user:default/maya-iyer

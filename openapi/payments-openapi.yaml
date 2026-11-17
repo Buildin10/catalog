@@ -1,0 +1,20 @@
+openapi: 3.0.3
+info:
+  title: Buildin10 Payments API
+  version: 1.0.0
+  description: Payment authorization and status API
+servers:
+  - url: http://payments-api.default.svc.cluster.local:8080
+paths:
+  /health:
+    get:
+      summary: Health check
+      responses:
+        '200':
+          description: Service is healthy
+  /payments:
+    post:
+      summary: Create a payment
+      responses:
+        '201':
+          description: Payment accepted

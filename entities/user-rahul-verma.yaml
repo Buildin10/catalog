@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: rahul-verma
+spec:
+  profile:
+    displayName: Rahul Verma
+    email: rahul.verma@buildin10.example
+  memberOf:
+    - team-orders
